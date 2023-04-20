@@ -39,7 +39,7 @@
   
   /* Modal Content/Box */
   .container-content {
-    background-image: radial-gradient(circle at center, #e3fc01, #d3a54f);;
+    background-image: radial-gradient(circle at center, #e3fc01, #d3a54f);
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 2px solid #c0c0bf;
     width: 20%; /* Could be more or less, depending on screen size */
