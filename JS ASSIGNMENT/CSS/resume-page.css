@@ -1,0 +1,183 @@
+.actions-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.small-btns {
+    width: 200px
+}
+
+.search-input {
+    max-width: 400px;
+    margin: 8px 10px!important;
+}
+
+.resume-container {
+    width: 60%;
+    display: none;
+    margin-top: 20px;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 2px #ceadad;
+    border-radius: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resume-header {
+    background-image: radial-gradient(circle at center, rgba(120, 243, 182, 0.541), #cd85f7c4);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 150px;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    border-radius: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.header-center {
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.candidate-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.position {
+    font-weight: bold;
+    bottom: 25px;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resume-body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.basics {
+    width: 23%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.other-details {
+    width: 67%;
+    padding: 10px 10px 10px 0px;
+}
+
+p, h3, h2, h1, h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.work-ex {
+    margin-top: 0px;
+}
+
+.basics {
+    text-align: right;
+    background: #ffe1e6;
+    height: fit-content;
+    border-radius: 1.25rem;
+}
+
+.basics .titles {
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(204, 203, 203);
+    text-align: left;
+    padding: 6px;
+    border-radius: 1.25rem;
+}
+.innerDetail {
+    padding: 10px 0px 10px 40px
+}
+
+.no-result {
+    display: none;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin-top: 200px;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 2px #888888;
+
+}
+.details-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.no-result-image {
+    width: 100px;
+    height: 100px;
+    padding-right: 40px;
+}
+
+.no-result-text {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.personal-info, .tech-skills, .hobbies {
+    margin-bottom: 15px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+@media only screen and (max-width: 600px) {
+    .basics, .other-details {
+        width: 100%
+    }
+    .other-details {
+        padding: 10px;
+    }
+    .resume-header {
+        justify-content: center;
+    }
+}

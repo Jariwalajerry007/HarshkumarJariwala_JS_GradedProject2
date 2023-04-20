@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/login.css">
+<link rel="stylesheet" href="./css/base.css">
+<title>Resume Viewer</title>
+</head>
+<body>
+
+<div id="id01" class="container">
+  <form id="loginForm" class="container-content animate" onsubmit="onLoginClick()">
+   <div class="imgcontainer"> 
+      <img src="./resources/images/demo.png" alt="Defaut" class="default">
+    </div>
+
+    <div class="inner-container">
+      <label for="username"><b>Username</b></label>
+      <input id="username" type="text" placeholder="Enter Username" name="username" required>
+
+      <label for="password"><b>Password</b></label>
+      <input id="password" type="password" placeholder="Enter Password" name="password" required>
+      <p id="error" class="error"></p>
+      <button type="submit">Login</button>
+    </div>
+  </form>
+</div>
+<script src="./Js/login.js"></script>
+</body>
+</html>

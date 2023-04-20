@@ -1,0 +1,53 @@
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 05px 0 05px 0;
+    position: relative;
+  }
+  
+  img.default {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .inner-container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .container {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: fixed; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background: linear-gradient(145deg, #2ae07c, #b355e9); /* Black w/ opacity */
+    padding-top: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  
+  /* Modal Content/Box */
+  .container-content {
+    background-image: radial-gradient(circle at center, #e3fc01, #d3a54f);;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 2px solid #c0c0bf;
+    width: 20%; /* Could be more or less, depending on screen size */
+    border-radius: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .error {
+      color: red;
+      text-align: center;
+  }
