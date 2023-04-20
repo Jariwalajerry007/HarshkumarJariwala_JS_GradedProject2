@@ -19,6 +19,6 @@ passwords are ONE, TWO and THREE for respective user.
 * Javascript
 
 ## Screenshot 
-![Home](JS ASSIGNMENT/SS/Home.JPG)
+![Home](JS ASSIGNMENT/SS/Home.png)
 
-<img width="700" alt="image" src="https://github.com/Jariwalajerry007/HarshkumarJariwala_JS_GradedProject2/blob/3d3d29343612d9b614f9aafe68851e1b751f9a70/JS%20ASSIGNMENT/SS/Home.JPG">
+<img width="700" alt="image" src="https://github.com/Jariwalajerry007/HarshkumarJariwala_JS_GradedProject2/blob/09aa1ec46cd6a6276d876e27d3d59acc3ca8346d/JS%20ASSIGNMENT/SS/Home.png">
