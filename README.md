@@ -19,5 +19,4 @@ passwords are ONE, TWO and THREE for respective user.
 * Javascript
 
 ## Screenshot 
-<img width="960" alt="Home" src="[https://github.com/Jariwalajerry007/HarshkumarJariwala_JS_GradedProject2/blob/main/JS%20ASSIGNMENT/SS/Home.JPG]">
-![Home]([screenshots/example.png](https://github.com/Jariwalajerry007/HarshkumarJariwala_JS_GradedProject2/blob/main/JS%20ASSIGNMENT/SS/Home.JPG)){:height="50%" width="50%"}
+
