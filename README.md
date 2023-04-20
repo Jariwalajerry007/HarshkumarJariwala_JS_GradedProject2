@@ -19,4 +19,6 @@ passwords are ONE, TWO and THREE for respective user.
 * Javascript
 
 ## Screenshot 
+JS ASSIGNMENT/SS/Home.JPG
 
+<img width="700" alt="image" src="https://github.com/Jariwalajerry007/HarshkumarJariwala_JS_GradedProject2/blob/3d3d29343612d9b614f9aafe68851e1b751f9a70/JS%20ASSIGNMENT/SS/Home.JPG">
